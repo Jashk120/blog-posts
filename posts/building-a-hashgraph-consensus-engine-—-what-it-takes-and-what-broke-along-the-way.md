@@ -2,7 +2,6 @@
 title: Building a hashgraph consensus engine — what it takes, and what broke
   along the way
 ---
-# Building a hashgraph consensus engine — what it takes, and what broke along the way
 
 This started as a research project. I was contributing to the Hiero/Hedera ecosystem, and along the way I ran into hashgraph — the consensus algorithm Hedera itself is built on. It's an elegant piece of design: no leader, no block proposer, no forking to resolve — nodes just gossip events to random peers, and consensus order falls out of the graph structure itself once enough of the network has "seen" and "seen-seen" the same events.
 
